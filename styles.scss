@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$verde1:#79A418;
+$verde2:#006666;
+$verde3:#006646;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+
+p,
+h1,
+i,
+b,
+h2,
+h3,
+h4,
+li,
+a,
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-menu {
+    border: 0px solid grey;
+
+    .dropdown-item {
+        border-bottom: 1px solid grey;
+
+
+        color: $verde1;
+
+    }
+}
+
+.navbar-brand {
+
+    img {
+        height: 60px;
+    }
+}
+
+.border-grey {}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: auto;
+
+    .banner {
+        display: flex;
+        width: 100%;
+        height: 25em;
+
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: $verde2;
+    }
+
+
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.no-bg {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.card-header {
+    background-color: $verde1;
+}
+
+.contenedor-prod {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+
+    .productos {
+        margin: 5em auto;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        height: auto;
+
+        .envios{
+            display: flex;
+            flex-direction: row;
+            width: 70%;
+            justify-content: space-between;
+            margin: 0 auto;
+            .envio-art{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: auto;
+                align-items: center;
+                margin-bottom: 2em;
+                &:nth-child(2){
+                    width: 1em;
+                    border-right: 1px dotted $verde1;
+                    margin-right: 1em;
+                    border-left: 1px dotted $verde1;
+                    margin-left: 1em;
+                }
+                .envio-left{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    align-items: center;
+                    p{
+                        margin: 0;
+                        margin-right: 1em;
+                    }
+                   i{
+                       color: $verde1;
+                       font-weight: bold;
+                       padding-right: 1em;
+                   }
+                   .hoja{
+                       margin: auto 0.5em;
+                       background-position: center;
+                       background-size: contain;
+                       background-repeat: no-repeat;
+                       background-image: url(assets/hojita.jpg);
+                       width: 1em;
+                       height: 1em;
+                   }
+                }
+            }
+           
+        }
+        section {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: auto;
+
+            .title-cat {
+                text-align: left;
+                padding-left: 2em;
+                font-size: 1em;
+                font-weight: 800;
+                color: white;
+
+            }
+
+            .categoria {
+                width: 80%;
+                margin: 0 auto;
+                border-color: linear-gradient(to right, $verde1 100%, $verde1 0%);
+                padding: 2em;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .articulo {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    width: 25em;
+                    height: 28em;
+                    margin: 1em 1em;
+                    border-right: 1px dotted $verde1;
+                    border-bottom: 1px dotted $verde1;
+                    padding: 0 2em 2em 0;
+
+                    .tipo-de-rosa {
+                        background-color: $verde1;
+                        color: white;
+                        width: 100%;
+                        height: 1.5em;
+                        margin: 0 0;
+                        font-weight: bolder;
+                        padding-right: 1em;
+                        text-align: right;
+                    }
+
+                    .desc-rosa {
+                        text-align: left;
+                        font-size: 0.9em;
+                        font-weight: 600;
+                        color: rgb(80, 80, 80);
+                    }
+
+                    .artic-img {
+                        background-color: $verde1;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        width: auto;
+                        height: 15em;
+
+                    }
+
+                    .compra-desc {
+                        padding-top: 1em;
+                        display: flex;
+                        flex-flow: column nowrap;
+                        font-size: 0.9em;
+                        justify-content: center;
+                        text-align: center;
+                        margin: 0 auto;
+
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+.btn-compra {
+    width: 8em;
+    height: 2em;
+    background-color: $verde1;
+    border-radius: 10px;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: none;
+
+    &:hover {
+        background-color: $verde3;
+        cursor: pointer;
+    }
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+
+    .adbar {
+
+        width: 100%;
+        height: 10em;
+        border: 1px solid grey;
+    }
+}
+
+.color-nav {
+    background-color: #79A418;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 8em;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $verde3;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+
+    .item-features {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        width: 25%;
+        min-width: 20em;
+        height: auto;
+        margin: 1% 2%;
+
+        .imagen-title {
+
+            position: relative;
+            height: 100%;
+            min-width: 100%;
+            margin: 0 auto;
+
+            .imagen-1 {
+                margin: 0 auto;
+                background-color: $verde2;
+                width: 100%;
+                height: 35em;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            text-align: center;
+            margin-bottom: 0%;
+        }
+
+        .title-text {
+            font-weight: 800;
+            color: $verde1;
+            font-size: 1.3em;
+            height: auto;
+        }
+    }
+
+    .descripcion {
+        font-size: 0.9em;
+    }
+}
+
+hr {
+    border: 1px solid $verde1;
+    margin: 5px;
+}
+
+#my-nav {
+    ul {
+        li {
+            a {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.head {
+    color: #348FBF;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.txt {
+    color: #454545;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.bmenu {
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+#price {
+    color: #ED1C24;
+}
+
+.copy {
+    color: #757272;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.ptitle {
+    color: #FADB4C;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.shop {
+    color: #BD001A;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.rmenu {
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 11px;
+    padding-left: 32px;
+}
+
+#green {
+    color: #629903;
+}
+
+.more {
+    color: #629903;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#red {
+    color: #BA0C00;
+}
+
+.t11 {
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.t12 {
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#under {
+    text-decoration: underline;
+}
+
+.Estilo3 {
+    color: #A2C428;
+    font-family: "Futura Md BT";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Estilo4 {
+    color: #FFFFFF
+}
+
+.Estilo13 {
+    color: #999999
+}
+
+.Estilo5 {
+    font-family: "Futura Md BT"
+}
+
+.Estilo7 {
+    color: #999999;
+    font-family: "Futura Md BT";
+    font-size: 14px;
+}
+
+.Estilo35 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.Estilo18 {
+    color: #666666
+}
+
+.Estilo21 {
+    font-family: "Futura Lt BT", "Futura Md BT";
+    font-size: 14px;
+}
+
+.Estilo8 {
+    color: #006666
+}
+
+.Estilo9 {
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #006666;
+    font-weight: bold;
+}
+
+.Estilo20 {
+    color: #666666;
+    font-family: "Futura Lt BT", "Futura Md BT";
+    font-size: 14px;
+}
+
+.Estilo37 {
+    color: #006666;
+    font-weight: bold;
+}
+
+.Estilo10 {
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #66CC00;
+    font-weight: bold;
+}
+
+.Estilo16 {
+    font-family: "Futura Md BT";
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.Estilo12 {
+    color: #006666;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+.Estilo32 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-style: italic;
+    font-family: "Futura Md BT";
+}
+
+.Estilo38 {
+    color: #006666;
+    font-family: "Futura Lt BT", "Futura Md BT";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+}
+
+#div8 #price9 p strong {
+    color: #008080;
+}
+
+#div8 #price9 p strong a {
+    color: #008080;
+}
+
+#div8 #price9 p .Estilo37 .Estilo18 strong {
+    color: #808080;
+}
+
+#div8 #price9 p .Estilo37 .Estilo18 strong {
+    color: #6F6F6F;
+}
+
+#green b .Estilo35 {
+    font-family: Futura Lt BT, Futura Md BT;
+}
+
+#green .Estilo35 strong {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#green b .Estilo35 {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.Estilo21 {
+    color: #808080;
+}
+
+.titulon {
+    font-family: Futura Lt BT, Futura Md BT;
+}
+
+.titulon strong {
+    color: #408080;
+}
+
+.titulon strong a {
+    color: #008040;
+}
+
+.menu {
+    color: #008080;
+}
+
+.titulon strong {
+    color: #008080;
+}
+
+.titulon strong {
+    color: #008040;
+}
+
+.titulon strong .menu {
+    color: #008040;
+}
+
+.Estilo13 .Estilo5 a {
+    color: #808080;
+}
+
+.puntos {
+    color: #FFF;
+}
+
+#div8 p .Estilo37 strong {
+    color: #FFF;
+}
+
+.puntos {
+    color: #FFF;
+}
+
+.puntos {
+    color: #FFF;
+}
