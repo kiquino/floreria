@@ -353,6 +353,139 @@ main .adbar {
   background-color: #006646;
 }
 
+.contenedor-formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: auto;
+  min-height: 5em;
+  background-color: #79A418;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5em auto;
+}
+
+.contenedor-formulario .logo-title {
+  width: 50%;
+}
+
+.contenedor-formulario .info-form {
+  width: 50%;
+}
+
+footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 8em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0;
+  background-color: #79A418;
+}
+
+footer .footer-icon {
+  height: 8em;
+  width: 7em;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+footer .fiscal {
+  background-image: url(assets/logo_blanco_ImgID3.png);
+}
+
+footer .designer {
+  background-image: url(assets/mi-logo.svg);
+}
+
+footer .contenedor-contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+footer .contenedor-contacto .contacto-tel {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto 0;
+}
+
+footer .contenedor-contacto .contacto-tel a {
+  color: white;
+  font-weight: normal;
+  text-decoration: underline;
+  margin-right: 1em;
+}
+
+footer .contenedor-contacto .contacto-tel .logo-whatsapp {
+  height: 1.3em;
+  width: 1.3em;
+  margin-left: 1.5em;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(assets/iconfinder_whatsapp-logo_1269930.svg);
+}
+
+footer .contenedor-contacto .registrado {
+  height: 1.5em;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+footer .contenedor-contacto .registrado a {
+  color: white;
+  text-decoration: underline;
+}
+
 .features {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -385,9 +518,9 @@ main .adbar {
   height: auto;
   padding: 1.5em;
   border-top: 2px solid #79A418;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin: 3em auto;
   word-wrap: none;
 }
@@ -480,7 +613,7 @@ hr {
 
 #my-nav ul li a {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .social {

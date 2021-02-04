@@ -30,7 +30,8 @@ button {
 
     .dropdown-item {
         border-bottom: 1px solid grey;
-
+        
+        
 
         color: $verde1;
 
@@ -286,6 +287,101 @@ main {
     background-repeat: no-repeat;
     background-color: $verde3;
 }
+.contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    min-height: 5em;
+    background-color: $verde1;
+    justify-content: center;
+    margin: 5em auto;
+    .logo-title{
+        width: 50%;
+    }
+    .info-form{
+        width: 50%;
+    }
+}
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 8em;
+    justify-content: space-between;
+    padding: 0 0;
+    background-color: $verde1;
+
+    .footer-icon {
+        height: 8em;
+        width: 7em;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    .fiscal {
+        background-image: url(assets/logo_blanco_ImgID3.png);
+    }
+
+    .designer {
+        background-image: url(assets/mi-logo.svg);
+    }
+
+    
+    .contenedor-contacto {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        color: white;
+
+        .contacto-tel{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto 0;
+
+        a{
+            color: white;
+            font-weight: normal;
+            text-decoration: underline;
+            margin-right: 1em;
+        }
+        
+            .logo-whatsapp{
+                height: 1.3em;
+                width: 1.3em;
+                margin-left: 1.5em;
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-image: url(assets/iconfinder_whatsapp-logo_1269930.svg);
+            }
+        
+        }
+        .registrado {
+           
+            height: 1.5em;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: normal;
+            a{
+                color: white;
+                text-decoration: underline;
+            }
+
+        }
+    }
+}
 
 .features {
     display: flex;
@@ -304,15 +400,17 @@ main {
         height: auto;
         padding: 1.5em;
         border-top: 2px solid $verde1;
-        justify-content: center;
+        justify-content: flex-start;
         margin: 3em auto;
         word-wrap: none;
-        .list-item{
+
+        .list-item {
             text-align: left;
             width: 60%;
             margin: 0 auto;
-            ul{
-                li{
+
+            ul {
+                li {
                     text-align: left;
                     list-style-type: disc;
                 }
@@ -388,7 +486,7 @@ hr {
         li {
             a {
                 font-family: 'Montserrat', sans-serif;
-                font-weight: 600;
+                font-weight: 500;
             }
         }
     }
