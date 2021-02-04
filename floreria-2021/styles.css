@@ -15,7 +15,8 @@ h2,
 h3,
 h4,
 li,
-a,
+a, label,
+input,
 button {
   font-family: 'Montserrat', sans-serif;
 }
@@ -353,6 +354,97 @@ main .adbar {
   background-color: #006646;
 }
 
+.nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  padding: 2em 10em;
+}
+
+.nosotros .header-nosotros {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  background-color: #006646;
+  height: 12em;
+  margin-bottom: 5%;
+}
+
+.nosotros .texto-nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 5%;
+  border: none;
+  border-left: 1px solid #006646;
+}
+
+.nosotros .texto-nosotros .texto-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nosotros .texto-nosotros .texto-item:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: normal;
+  width: 55%;
+  color: #505050;
+}
+
+.nosotros .texto-nosotros .texto-item h3 {
+  font-weight: bolder;
+  color: #006666;
+  margin: 1.5em 0;
+}
+
+.nosotros .texto-nosotros .texto-item:nth-child(2) {
+  width: 35%;
+  padding: 1em 1.5em;
+  background-color: rgba(134, 134, 134, 0.2);
+  border-radius: 20px;
+}
+
+.nosotros .texto-nosotros .texto-item:nth-child(2) h3 {
+  margin-bottom: 0.5em;
+}
+
+.nosotros .texto-nosotros .texto-item:nth-child(2) hr {
+  border: 1px solid #79A418;
+  opacity: 0.8;
+  margin-bottom: 1em;
+}
+
 .contenedor-formulario {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -364,7 +456,7 @@ main .adbar {
   width: 100%;
   height: auto;
   min-height: 5em;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -384,9 +476,9 @@ main .adbar {
           flex-direction: row;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .contenedor-formulario .logo-title .logo-img {
@@ -443,7 +535,155 @@ main .adbar {
 }
 
 .contenedor-formulario .info-form .datos-contacto {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: left;
+  border-left: 1px solid #006646;
+  padding-left: 3em;
+}
+
+.contenedor-formulario .info-form .datos-contacto .datos-art {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(1) {
+  color: #006666;
+  font-weight: bold;
+  margin-bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(1) .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(1) .social a .media {
+  width: 1.5em;
+  height: 1.5em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0 1em;
+}
+
+.contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(1) .social a .facebook {
+  background-image: url(assets/iconfinder_BW_Facebook_2_glyph_svg_5305153.svg);
+}
+
+.contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(1) .social a .instagram {
+  background-image: url(assets/iconfinder_Instagram_glyph_svg_5335781.svg);
+}
+
+.contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(2) {
+  color: #79A418;
+}
+
+.contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(2) a {
+  color: #79A418;
+  text-decoration: underline;
+}
+
+.contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(3) {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(3) a {
+  color: #006666;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.contenedor-formulario .info-form .formulario {
+  background-color: rgba(114, 114, 114, 0.1);
+  padding: 1.5em 2em;
+  border-radius: 20px;
   width: 50%;
+}
+
+.contenedor-formulario .info-form .formulario form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.contenedor-formulario .info-form .formulario form .input-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.8em 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenedor-formulario .info-form .formulario form .input-data label {
+  margin: 0;
+  margin-right: 0.5em;
+}
+
+.contenedor-formulario .info-form .formulario form .input-data input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: 80%;
+  border-bottom: 1px solid #006646;
+}
+
+.contenedor-formulario .info-form .formulario form .input-data textarea {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #006646;
+  width: 80%;
+}
+
+.contenedor-formulario .info-form .formulario form input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 1px solid #006646;
 }
 
 footer {
@@ -594,7 +834,7 @@ footer .contenedor-contacto .registrado a {
 
 .features .item-pagoenvio .list-item {
   text-align: left;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
