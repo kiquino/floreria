@@ -307,6 +307,17 @@ main {
         justify-content: center;
         margin: 3em auto;
         word-wrap: none;
+        .list-item{
+            text-align: left;
+            width: 60%;
+            margin: 0 auto;
+            ul{
+                li{
+                    text-align: left;
+                    list-style-type: disc;
+                }
+            }
+        }
 
         .title {
             text-align: center;
