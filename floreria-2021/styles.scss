@@ -30,8 +30,8 @@ button {
 
     .dropdown-item {
         border-bottom: 1px solid grey;
-        
-        
+
+
 
         color: $verde1;
 
@@ -287,22 +287,62 @@ main {
     background-repeat: no-repeat;
     background-color: $verde3;
 }
-.contenedor-formulario{
+
+.contenedor-formulario {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     height: auto;
     min-height: 5em;
-    background-color: $verde1;
-    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
     margin: 5em auto;
-    .logo-title{
-        width: 50%;
+    padding: 0 15%;
+
+    .logo-title {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+        .logo-img {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            background-color: $verde1;
+            height: 15em;
+        }
+
+        .title-contacto {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            width: 40%;
+            align-items: flex-end;
+            text-align: right;
+            h3{
+                color: $verde2;
+                font-weight: 800;
+                font-size: 1.5em;
+            }
+        }
     }
-    .info-form{
-        width: 50%;
+
+    .info-form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top:5%;
+        .datos-contacto{
+            width: 50%;
+        }
     }
 }
+
 footer {
     width: 100%;
     display: flex;
@@ -333,7 +373,7 @@ footer {
         background-image: url(assets/mi-logo.svg);
     }
 
-    
+
     .contenedor-contacto {
         display: flex;
         flex-direction: column;
@@ -342,22 +382,22 @@ footer {
         justify-content: space-between;
         color: white;
 
-        .contacto-tel{
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin: auto 0;
+        .contacto-tel {
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: auto 0;
 
-        a{
-            color: white;
-            font-weight: normal;
-            text-decoration: underline;
-            margin-right: 1em;
-        }
-        
-            .logo-whatsapp{
+            a {
+                color: white;
+                font-weight: normal;
+                text-decoration: underline;
+                margin-right: 1em;
+            }
+
+            .logo-whatsapp {
                 height: 1.3em;
                 width: 1.3em;
                 margin-left: 1.5em;
@@ -366,15 +406,17 @@ footer {
                 background-repeat: no-repeat;
                 background-image: url(assets/iconfinder_whatsapp-logo_1269930.svg);
             }
-        
+
         }
+
         .registrado {
-           
+
             height: 1.5em;
             text-align: center;
             font-size: 1.1em;
             font-weight: normal;
-            a{
+
+            a {
                 color: white;
                 text-decoration: underline;
             }
