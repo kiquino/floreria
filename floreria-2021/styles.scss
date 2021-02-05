@@ -1179,3 +1179,113 @@ a:hover {
 
 
 }
+@media(max-width:400px){
+    .features {
+        width: 100%;
+        flex-direction: column;
+
+        .item-pagoenvio {
+            width: 80%;
+            padding: 0.5em 0.5em;
+
+            .list-item{
+                width: 90%;
+            }
+            .title {
+                h3 {
+                    font-size: 1.2em;
+                }
+            }
+        }
+        .item-features {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            width: 90%;
+            min-width: inherit;
+            height: auto;
+            margin: 1% auto;
+    
+    
+            .imagen-title {
+    
+                position: relative;
+                height: 100%;
+                min-width: 100%;
+                margin: 0 auto;
+    
+                .imagen-1 {
+                    margin: 0 auto;
+                    background-color: $verde2;
+                    width: 100%;
+                    height: 15em;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+    
+                text-align: center;
+                margin-bottom: 0%;
+            }
+    
+            .title-text {
+                font-weight: 800;
+                color: $verde1;
+                font-size: 1.3em;
+                height: auto;
+            }
+        }
+    }
+    .contenedor-prod {
+        .productos {
+            width: 100%;
+
+            .envios {
+                width: 100%;
+                justify-content: center;
+
+                .envio-art {
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
+
+
+            section {
+
+                .categoria {
+                    width: 90%;
+                    padding: 1em 0em;
+                    .articulo{
+                        margin:0.5em 0em;
+                        padding:0 1em 1em 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .contenedor-formulario{
+        padding: 1% 1em;
+        .logo-title{
+            .logo-img{
+                width: 50%;
+            }
+            .title-contacto{
+                width: 50%;
+            }
+        }
+        .info-form{
+            flex-direction: column-reverse;
+            .datos-contacto{
+                padding-left: 1em;
+                width: 90%;
+                flex-direction: column;
+            }
+            .formulario{
+                width: 90%;
+            }
+        }
+    }
+}

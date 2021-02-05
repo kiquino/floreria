@@ -1364,4 +1364,109 @@ a:hover {
     width: 90%;
   }
 }
+
+@media (max-width: 400px) {
+  .features {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features .item-pagoenvio {
+    width: 80%;
+    padding: 0.5em 0.5em;
+  }
+  .features .item-pagoenvio .list-item {
+    width: 90%;
+  }
+  .features .item-pagoenvio .title h3 {
+    font-size: 1.2em;
+  }
+  .features .item-features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 90%;
+    min-width: inherit;
+    height: auto;
+    margin: 1% auto;
+  }
+  .features .item-features .imagen-title {
+    position: relative;
+    height: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 0%;
+  }
+  .features .item-features .imagen-title .imagen-1 {
+    margin: 0 auto;
+    background-color: #006666;
+    width: 100%;
+    height: 15em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .features .item-features .title-text {
+    font-weight: 800;
+    color: #79A418;
+    font-size: 1.3em;
+    height: auto;
+  }
+  .contenedor-prod .productos {
+    width: 100%;
+  }
+  .contenedor-prod .productos .envios {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contenedor-prod .productos .envios .envio-art:nth-child(2) {
+    display: none;
+  }
+  .contenedor-prod .productos section .categoria {
+    width: 90%;
+    padding: 1em 0em;
+  }
+  .contenedor-prod .productos section .categoria .articulo {
+    margin: 0.5em 0em;
+    padding: 0 1em 1em 0;
+  }
+  .contenedor-formulario {
+    padding: 1% 1em;
+  }
+  .contenedor-formulario .logo-title .logo-img {
+    width: 50%;
+  }
+  .contenedor-formulario .logo-title .title-contacto {
+    width: 50%;
+  }
+  .contenedor-formulario .info-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .contenedor-formulario .info-form .datos-contacto {
+    padding-left: 1em;
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contenedor-formulario .info-form .formulario {
+    width: 90%;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
