@@ -32,7 +32,7 @@ button {
 }
 
 .navbar {
-  padding: 0 1em;
+  padding: 0.5em 1em;
 }
 
 .navbar-brand {
@@ -283,12 +283,337 @@ header .banner {
 }
 
 .contenedor-prod .productos section .categoria .articulo .artic-img {
-  background-color: #79A418;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   width: auto;
   height: 15em;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod1 {
+  background-image: url(assets/prod/producto-1.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod2 {
+  background-image: url(assets/prod/alstroemerias2.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod3 {
+  background-image: url(assets/prod/canasta-nac.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod4 {
+  background-image: url(assets/prod/ROSAS.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod5 {
+  background-image: url(assets/prod/bicolor.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod6 {
+  background-image: url(assets/prod/SURTIDO.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod7 {
+  background-image: url(assets/prod/cesta-yerberas-globos.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod8 {
+  background-image: url(assets/prod/canasta-peluche-globo.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod9 {
+  background-image: url(assets/prod/lisantus-y-globos.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod10 {
+  background-image: url(assets/prod/rocvio-campestre.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod11 {
+  background-image: url(assets/prod/ramo4esp-primavera.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod12 {
+  background-image: url(assets/prod/rosas-box-25.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod13 {
+  background-image: url(assets/prod/box-16-rosas.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod14 {
+  background-image: url(assets/prod/rosas-c-ojos-de-perdiz.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod15 {
+  background-image: url(assets/prod/susper-cesta-peluche.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod16 {
+  background-image: url(assets/prod/cesta-nueva.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod17 {
+  background-image: url(assets/prod/ROSAS-Y-CHAMPAGNE.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod18 {
+  background-image: url(assets/prod/vinoybombon.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod19 {
+  background-image: url(assets/prod/bandeja-picada.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod20 {
+  background-image: url(assets/prod/DESAYUNO-floresjpg.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod21 {
+  background-image: url(assets/prod/producto-nuevo3.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod22 {
+  background-image: url(assets/prod/bombones.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod23 {
+  background-image: url(assets/prod/matero.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod24 {
+  background-image: url(assets/prod/canasta-vip-el.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod25 {
+  background-image: url(assets/prod/florero-gerbera.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod26 {
+  background-image: url(assets/prod/florero-alstromerias.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod27 {
+  background-image: url(assets/prod/florero-claveles.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod28 {
+  background-image: url(assets/prod/florero-rosas.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod29 {
+  background-image: url(assets/prod/florero-amarillo.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod30 {
+  background-image: url(assets/prod/SUPER-CESTA-DE-GERBERAS-Y-FLORES--SILVESTRES.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod31 {
+  background-image: url(assets/prod/REGALO-NUEVO.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod32 {
+  background-image: url(assets/prod/ARREGLO-LILIUMS-OJO-PERDIZ.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod33 {
+  background-image: url(assets/prod/Arreglo-Imperial.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod34 {
+  background-image: url(assets/prod/cesta-peluche-torta.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod35 {
+  background-image: url(assets/prod/cesta-mis-15.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod36 {
+  background-image: url(assets/prod/condolencias/corona-estandar.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod37 {
+  background-image: url(assets/prod/condolencias/corona-nueva.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod38 {
+  background-image: url(assets/prod/condolencias/corona-nueva-1.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod39 {
+  background-image: url(assets/prod/condolencias/corona-mediana.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod40 {
+  background-image: url(assets/prod/condolencias/corona-especial.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod41 {
+  background-image: url(assets/prod/condolencias/corona-grande.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod42 {
+  background-image: url(assets/prod/condolencias/aro-espuma-floral.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod43 {
+  background-image: url(assets/prod/condolencias/combo-funebre.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod44 {
+  background-image: url(assets/prod/condolencias/cruz.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod45 {
+  background-image: url(assets/prod/condolencias/centro-funerario.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod46 {
+  background-image: url(assets/prod/condolencias/corazon-g.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenedor-prod .productos section .categoria .articulo .prod47 {
+  background-image: url(assets/prod/condolencias/corazon.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .contenedor-prod .productos section .categoria .articulo .compra-desc {
@@ -296,16 +621,24 @@ header .banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   font-size: 0.9em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
   margin: 0 auto;
+}
+
+.contenedor-prod .productos section .categoria .articulo .compra-desc p {
+  margin-bottom: 0.5rem;
+}
+
+.contenedor-prod .productos section .categoria .articulo .compra-desc i {
+  color: red;
 }
 
 .btn-compra {
