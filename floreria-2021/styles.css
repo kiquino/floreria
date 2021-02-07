@@ -626,9 +626,9 @@ header .banner {
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
   font-size: 0.9em;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-align: center;
   margin: 0 auto;
 }
