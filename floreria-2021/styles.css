@@ -72,11 +72,34 @@ header .banner {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: auto;
-  background-position: center;
-  background-size: cover;
+  height: 27em;
+}
+
+.carousel-img {
+  display: block;
+  width: 100%;
+  height: 27em;
+}
+
+.ci1 {
+  background-position: top;
   background-repeat: no-repeat;
-  background-color: #006666;
+  background-size: cover;
+  background-image: url(assets/BANNERS/PC/HEADER/1.png);
+}
+
+.ci2 {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(assets/BANNERS/PC/HEADER/2.png);
+}
+
+.ci3 {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(assets/BANNERS/PC/HEADER/3.png);
 }
 
 .carousel {
@@ -734,9 +757,9 @@ main .adbar {
 .nosotros .header-nosotros {
   width: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: left;
-  background-color: #006646;
+  background-image: url(assets/logo-contacto.png);
   height: 12em;
   margin-bottom: 5%;
 }
@@ -792,6 +815,8 @@ main .adbar {
   padding: 1em 1.5em;
   background-color: rgba(134, 134, 134, 0.2);
   border-radius: 20px;
+  max-height: 45em;
+  overflow-y: scroll;
 }
 
 .nosotros .texto-nosotros .texto-item:nth-child(2) h3 {
@@ -849,7 +874,10 @@ main .adbar {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 40%;
-  background-color: #79a418;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url(assets/logo-contacto.png);
   height: 15em;
 }
 
@@ -919,6 +947,16 @@ main .adbar {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: left;
+}
+
+.contenedor-formulario .info-form .datos-contacto .datos-art p .logo-whatsapp {
+  height: 1.3em;
+  width: 1.3em;
+  margin-left: 1.5em;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(assets/iconfinder_whatsapp-logo_1269930-green.svg);
 }
 
 .contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(1) {
@@ -1021,6 +1059,10 @@ main .adbar {
           justify-content: space-between;
 }
 
+.contenedor-formulario .info-form .formulario form .input-data:nth-child(5) input {
+  width: 100%;
+}
+
 .contenedor-formulario .info-form .formulario form .input-data label {
   margin: 0;
   margin-right: 0.5em;
@@ -1069,7 +1111,7 @@ footer {
 }
 
 footer .footer-icon {
-  height: 6em;
+  height: 11em;
   width: 7em;
   background-position: top;
   background-repeat: no-repeat;
@@ -1159,6 +1201,7 @@ footer .contenedor-contacto .contacto-tel {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: auto 0;
+  word-break: inherit;
 }
 
 footer .contenedor-contacto .contacto-tel a {
@@ -1291,7 +1334,27 @@ footer .contenedor-contacto .registrado a {
 
 .features .item-features .imagen-title .imagen-1 {
   margin: 0 auto;
-  background-color: #006666;
+  background-image: url(assets/BANNERS/PC/SERVICIOS/S1.png);
+  width: 100%;
+  height: 29em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.features .item-features .imagen-title .imagen-2 {
+  margin: 0 auto;
+  background-image: url(assets/BANNERS/PC/SERVICIOS/S2.png);
+  width: 100%;
+  height: 29em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.features .item-features .imagen-title .imagen-3 {
+  margin: 0 auto;
+  background-image: url(assets/BANNERS/PC/SERVICIOS/S3.png);
   width: 100%;
   height: 29em;
   background-position: center;
@@ -1609,7 +1672,37 @@ a:hover {
   color: #fff;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
+  header .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 15em;
+  }
+  .carousel-img {
+    display: block;
+    width: 100%;
+    height: 15em;
+  }
+  .ci1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/BANNERS/PC/HEADER/1.png);
+  }
+  .ci2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/BANNERS/PC/HEADER/2.png);
+  }
+  .ci3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/BANNERS/PC/HEADER/3.png);
+  }
   .features {
     width: 100%;
   }
@@ -1648,13 +1741,16 @@ a:hover {
     margin-bottom: 0%;
   }
   .features .item-features .imagen-title .imagen-1 {
-    margin: 0 auto;
-    background-color: #006666;
     width: 100%;
     height: 15em;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  }
+  .features .item-features .imagen-title .imagen-2 {
+    width: 100%;
+    height: 15em;
+  }
+  .features .item-features .imagen-title .imagen-3 {
+    width: 100%;
+    height: 15em;
   }
   .features .item-features .title-text {
     font-weight: 800;
@@ -1679,6 +1775,7 @@ a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: auto;
   }
   .nosotros .texto-nosotros .texto-item:nth-child(1) {
     display: -webkit-box;
@@ -1752,6 +1849,25 @@ a:hover {
 @media (max-width: 400px) {
   footer {
     height: auto;
+  }
+  footer .contenedor-contacto .contacto-tel {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: auto 0;
+  }
+  footer .contenedor-contacto .contacto-tel p {
+    word-break: keep-all;
   }
   .features {
     width: 100%;
@@ -1833,7 +1949,7 @@ a:hover {
     padding: 1% 1em;
   }
   .contenedor-formulario .logo-title .logo-img {
-    width: 50%;
+    width: 60%;
   }
   .contenedor-formulario .logo-title .title-contacto {
     width: 50%;
@@ -1854,6 +1970,42 @@ a:hover {
   }
   .contenedor-formulario .info-form .formulario {
     width: 100%;
+  }
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse nowrap;
+            flex-flow: column-reverse nowrap;
+  }
+  header .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  .carousel-img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+  }
+  .ci1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/BANNERS/CEL/HEADER/1.png);
+  }
+  .ci2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/BANNERS/CEL/HEADER/2.png);
+  }
+  .ci3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/BANNERS/CEL/HEADER/3.png);
   }
 }
 /*# sourceMappingURL=styles.css.map */
