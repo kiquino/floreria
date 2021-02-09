@@ -19,7 +19,7 @@ a,
 label,
 input,
 button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .dropdown-menu {
@@ -28,7 +28,7 @@ button {
 
 .dropdown-menu .dropdown-item {
   border-bottom: 1px solid grey;
-  color: #79A418;
+  color: #79a418;
 }
 
 .navbar {
@@ -72,7 +72,7 @@ header .banner {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 25em;
+  height: auto;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ header .banner {
 }
 
 .card-header {
-  background-color: #79A418;
+  background-color: #79a418;
 }
 
 .contenedor-prod {
@@ -162,9 +162,9 @@ header .banner {
 
 .contenedor-prod .productos .envios .envio-art:nth-child(2) {
   width: 1em;
-  border-right: 1px dotted #79A418;
+  border-right: 1px dotted #79a418;
   margin-right: 1em;
-  border-left: 1px dotted #79A418;
+  border-left: 1px dotted #79a418;
   margin-left: 1em;
   display: inherit;
 }
@@ -189,7 +189,7 @@ header .banner {
 }
 
 .contenedor-prod .productos .envios .envio-art .envio-left i {
-  color: #79A418;
+  color: #79a418;
   font-weight: bold;
   padding-right: 1em;
 }
@@ -230,7 +230,7 @@ header .banner {
 .contenedor-prod .productos section .categoria {
   width: 80%;
   margin: 0 auto;
-  border-color: linear-gradient(to right, #79A418 100%, #79A418 0%);
+  border-color: linear-gradient(to right, #79a418 100%, #79a418 0%);
   padding: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -257,15 +257,16 @@ header .banner {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   width: 25em;
-  height: 28em;
+  min-height: 25em;
+  height: auto;
   margin: 1em 1em;
-  border-right: 1px dotted #79A418;
-  border-bottom: 1px dotted #79A418;
+  border-right: 1px dotted #79a418;
+  border-bottom: 1px dotted #79a418;
   padding: 0 2em 2em 0;
 }
 
 .contenedor-prod .productos section .categoria .articulo .tipo-de-rosa {
-  background-color: #79A418;
+  background-color: #79a418;
   color: white;
   width: 100%;
   height: 1.5em;
@@ -617,6 +618,7 @@ header .banner {
 }
 
 .contenedor-prod .productos section .categoria .articulo .compra-desc {
+  padding: 0 0;
   padding-top: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -630,25 +632,36 @@ header .banner {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 0;
 }
 
 .contenedor-prod .productos section .categoria .articulo .compra-desc p {
+  width: 50%;
   margin-bottom: 0.5rem;
 }
 
+.contenedor-prod .productos section .categoria .articulo .compra-desc p b {
+  color: #006666;
+}
+
 .contenedor-prod .productos section .categoria .articulo .compra-desc i {
-  color: red;
+  color: #79a418;
+}
+
+.btn:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  text-decoration: underline;
 }
 
 .btn-compra {
   width: 8em;
   height: 2em;
-  background-color: #79A418;
+  background-color: #79a418;
   border-radius: 10px;
   margin: 0 auto;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   border: none;
 }
@@ -680,7 +693,7 @@ main .adbar {
 }
 
 .color-nav {
-  background-color: #79A418;
+  background-color: #79a418;
 }
 
 .contenedor {
@@ -786,7 +799,7 @@ main .adbar {
 }
 
 .nosotros .texto-nosotros .texto-item:nth-child(2) hr {
-  border: 1px solid #79A418;
+  border: 1px solid #79a418;
   opacity: 0.8;
   margin-bottom: 1em;
 }
@@ -836,7 +849,7 @@ main .adbar {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 40%;
-  background-color: #79A418;
+  background-color: #79a418;
   height: 15em;
 }
 
@@ -915,10 +928,10 @@ main .adbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(1) .social {
@@ -934,8 +947,8 @@ main .adbar {
 }
 
 .contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(1) .social a .media {
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.2em;
+  height: 1.2em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -943,19 +956,19 @@ main .adbar {
 }
 
 .contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(1) .social a .facebook {
-  background-image: url(assets/iconfinder_BW_Facebook_2_glyph_svg_5305153.svg);
+  background-image: url(assets/iconfinder_BW_Facebook_2_glyph_svg_5305153-darkgreen.svg);
 }
 
 .contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(1) .social a .instagram {
-  background-image: url(assets/iconfinder_Instagram_glyph_svg_5335781.svg);
+  background-image: url(assets/iconfinder_Instagram_glyph_svg_5335781darkgreen.svg);
 }
 
 .contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(2) {
-  color: #79A418;
+  color: #79a418;
 }
 
 .contenedor-formulario .info-form .datos-contacto .datos-art:nth-child(2) a {
-  color: #79A418;
+  color: #79a418;
   text-decoration: underline;
 }
 
@@ -1020,6 +1033,10 @@ main .adbar {
   border-bottom: 1px solid #006646;
 }
 
+.contenedor-formulario .info-form .formulario form .input-data #tel {
+  font-size: 0.8em;
+}
+
 .contenedor-formulario .info-form .formulario form .input-data textarea {
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #006646;
@@ -1043,16 +1060,16 @@ footer {
           flex-direction: row;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  height: 8em;
+  height: auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 0;
-  background-color: #79A418;
+  background-color: #79a418;
 }
 
 footer .footer-icon {
-  height: 8em;
+  height: 6em;
   width: 7em;
   background-position: top;
   background-repeat: no-repeat;
@@ -1067,6 +1084,40 @@ footer .footer-icon {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+
+footer .contenedor-icondesigner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+}
+
+footer .contenedor-icondesigner a .footer-icon {
+  height: 6em;
+  width: 7em;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+footer .contenedor-icondesigner p {
+  color: white;
+  width: 7em;
 }
 
 footer .fiscal {
@@ -1170,7 +1221,7 @@ footer .contenedor-contacto .registrado a {
   width: 25%;
   height: auto;
   padding: 1.5em;
-  border-top: 2px solid #79A418;
+  border-top: 2px solid #79a418;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -1250,7 +1301,7 @@ footer .contenedor-contacto .registrado a {
 
 .features .item-features .title-text {
   font-weight: 800;
-  color: #79A418;
+  color: #79a418;
   font-size: 1.3em;
   height: auto;
 }
@@ -1260,12 +1311,12 @@ footer .contenedor-contacto .registrado a {
 }
 
 hr {
-  border: 1px solid #79A418;
+  border: 1px solid #79a418;
   margin: 5px;
 }
 
 #my-nav ul li a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
@@ -1297,7 +1348,7 @@ hr {
 }
 
 .head {
-  color: #348FBF;
+  color: #348fbf;
   font-family: Tahoma;
   font-size: 11px;
 }
@@ -1309,13 +1360,13 @@ hr {
 }
 
 .bmenu {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Tahoma;
   font-size: 11px;
 }
 
 #price {
-  color: #ED1C24;
+  color: #ed1c24;
 }
 
 .copy {
@@ -1325,19 +1376,19 @@ hr {
 }
 
 .ptitle {
-  color: #FADB4C;
+  color: #fadb4c;
   font-family: Tahoma;
   font-size: 11px;
 }
 
 .shop {
-  color: #BD001A;
+  color: #bd001a;
   font-family: Tahoma;
   font-size: 11px;
 }
 
 .rmenu {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Tahoma;
   font-size: 11px;
   padding-left: 32px;
@@ -1356,7 +1407,7 @@ hr {
 }
 
 #red {
-  color: #BA0C00;
+  color: #ba0c00;
 }
 
 .t11 {
@@ -1382,7 +1433,7 @@ a:hover {
 }
 
 .Estilo3 {
-  color: #A2C428;
+  color: #a2c428;
   font-family: "Futura Md BT";
   font-size: 14px;
   font-style: italic;
@@ -1390,7 +1441,7 @@ a:hover {
 }
 
 .Estilo4 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .Estilo13 {
@@ -1408,7 +1459,7 @@ a:hover {
 }
 
 .Estilo35 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
   font-style: italic;
 }
@@ -1447,7 +1498,7 @@ a:hover {
 .Estilo10 {
   font-family: Tahoma;
   font-size: 12px;
-  color: #66CC00;
+  color: #66cc00;
   font-weight: bold;
 }
 
@@ -1464,7 +1515,7 @@ a:hover {
 }
 
 .Estilo32 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
   font-style: italic;
   font-family: "Futura Md BT";
@@ -1491,7 +1542,7 @@ a:hover {
 }
 
 #div8 #price9 p .Estilo37 .Estilo18 strong {
-  color: #6F6F6F;
+  color: #6f6f6f;
 }
 
 #green b .Estilo35 {
@@ -1543,19 +1594,19 @@ a:hover {
 }
 
 .puntos {
-  color: #FFF;
+  color: #fff;
 }
 
 #div8 p .Estilo37 strong {
-  color: #FFF;
+  color: #fff;
 }
 
 .puntos {
-  color: #FFF;
+  color: #fff;
 }
 
 .puntos {
-  color: #FFF;
+  color: #fff;
 }
 
 @media (max-width: 800px) {
@@ -1607,7 +1658,7 @@ a:hover {
   }
   .features .item-features .title-text {
     font-weight: 800;
-    color: #79A418;
+    color: #79a418;
     font-size: 1.3em;
     height: auto;
   }
@@ -1656,7 +1707,7 @@ a:hover {
     margin-bottom: 0.5em;
   }
   .nosotros .texto-nosotros .texto-item:nth-child(2) hr {
-    border: 1px solid #79A418;
+    border: 1px solid #79a418;
     opacity: 0.8;
     margin-bottom: 1em;
   }
@@ -1699,6 +1750,9 @@ a:hover {
 }
 
 @media (max-width: 400px) {
+  footer {
+    height: auto;
+  }
   .features {
     width: 100%;
     -webkit-box-orient: vertical;
@@ -1751,7 +1805,7 @@ a:hover {
   }
   .features .item-features .title-text {
     font-weight: 800;
-    color: #79A418;
+    color: #79a418;
     font-size: 1.3em;
     height: auto;
   }
@@ -1799,7 +1853,7 @@ a:hover {
             flex-direction: column;
   }
   .contenedor-formulario .info-form .formulario {
-    width: 90%;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
