@@ -727,13 +727,13 @@ main .adbar {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100%;
+  width: 70%;
   height: 8em;
   margin: 0 auto;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #006646;
+  background-image: url(assets/BANNERS/PC/PAYU-MERCADO-PAGO/PAGOS.png);
 }
 
 .nosotros {
@@ -1673,6 +1673,9 @@ a:hover {
 }
 
 @media (max-width: 850px) {
+  .contenedor {
+    width: 90%;
+  }
   header .banner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1847,6 +1850,10 @@ a:hover {
 }
 
 @media (max-width: 400px) {
+  .contenedor {
+    width: 100%;
+    background-image: url(assets/BANNERS/CEL/PAY-U-Y-MERCADO-PAGO/PAGOS-CEL2.png);
+  }
   footer {
     height: auto;
   }
