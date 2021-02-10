@@ -1580,12 +1580,33 @@ a:hover {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 380px) {
   .contenedor {
     width: 100%;
     background-image: url(assets/BANNERS/CEL/PAY-U-Y-MERCADO-PAGO/PAGOS-CEL2.png);
   }
   footer {
+    .contenedor-icondesigner {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      a {
+        .footer-icon {
+          height: 5em;
+          width: 5em;
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: contain;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+        }
+      }
+      p {
+        color: white;
+        width: 6em;
+      }
+    }
     height: auto;
     .contenedor-contacto {
       .contacto-tel {
@@ -1746,4 +1767,5 @@ a:hover {
     background-size: cover;
     background-image: url(assets/BANNERS/CEL/HEADER/3.png);
   }
+  
 }
