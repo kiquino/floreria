@@ -246,7 +246,7 @@ $text_mail.="<p style='font-size: 30px; line-height: 1.2; word-break: break-word
 </html>";
 
 
-$success = mail('kiquino@gmail.com','Mensaje de cliente',$text_mail,$header);
+$success = mail('info@novoflor.com','Mensaje de cliente',$text_mail,$header);
 
 if ($success) {
     header("location:http://novoflor.com.ar/email-exito/beefree-ytukosxd0cg.html");
