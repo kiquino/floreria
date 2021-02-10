@@ -949,10 +949,10 @@ main .adbar {
   text-align: left;
 }
 
-.contenedor-formulario .info-form .datos-contacto .datos-art p .logo-whatsapp {
+.contenedor-formulario .info-form .datos-contacto .datos-art .logo-whatsapp {
   height: 1.3em;
   width: 1.3em;
-  margin-left: 1.5em;
+  margin-left: 0em;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

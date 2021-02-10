@@ -739,16 +739,16 @@ main {
         display: flex;
         flex-direction: column;
         text-align: left;
-        p {
+        
           .logo-whatsapp {
             height: 1.3em;
             width: 1.3em;
-            margin-left: 1.5em;
+            margin-left: 0em;
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
             background-image: url(assets/iconfinder_whatsapp-logo_1269930-green.svg);
-          }
+          
         }
 
         &:nth-child(1) {
