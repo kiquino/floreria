@@ -99,14 +99,14 @@ header .banner {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(assets/BANNERS/PC/HEADER/2.png);
+  background-image: url(assets/BANNERS/PC/HEADER/B2.jpg);
 }
 
 .ci3 {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(assets/BANNERS/PC/HEADER/3.png);
+  background-image: url(assets/BANNERS/PC/HEADER/B3.jpg);
 }
 
 .carousel {
@@ -258,7 +258,7 @@ header .banner {
 }
 
 .contenedor-prod .productos section .categoria {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   border-color: linear-gradient(to right, #79a418 100%, #79a418 0%);
   padding: 2em;
@@ -1194,8 +1194,9 @@ footer .contenedor-icondesigner p {
   width: 7em;
 }
 
-footer .fiscal {
-  background-image: url(assets/logo_blanco_ImgID3.png);
+footer .fiscal a img {
+  width: 6em;
+  height: auto;
 }
 
 footer .designer {
@@ -1306,7 +1307,7 @@ footer .contenedor-contacto .registrado a {
 
 .features .item-pagoenvio .list-item {
   text-align: left;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -1704,6 +1705,39 @@ a:hover {
   color: #fff;
 }
 
+@media (max-width: 1250px) {
+  header .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 20em;
+  }
+  .carousel-img {
+    display: block;
+    width: 100%;
+    height: 20em;
+  }
+  .ci1 {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/BANNERS/PC/HEADER/1.png);
+  }
+  .ci2 {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/BANNERS/PC/HEADER/B2.jpg);
+  }
+  .ci3 {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/BANNERS/PC/HEADER/B3.jpg);
+  }
+}
+
 @media (max-width: 850px) {
   .contenedor {
     width: 90%;
@@ -1730,13 +1764,13 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(assets/BANNERS/PC/HEADER/2.png);
+    background-image: url(assets/BANNERS/PC/HEADER/B2.jpg);
   }
   .ci3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(assets/BANNERS/PC/HEADER/3.png);
+    background-image: url(assets/BANNERS/PC/HEADER/B3.jpg);
   }
   .features {
     width: 100%;
@@ -1882,6 +1916,22 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+  .contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 8em;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(assets/BANNERS/CEL/PAY-U-Y-MERCADO-PAGO/pagos.jpg);
+  }
   .nosotros .header-nosotros {
     height: 6em;
   }
@@ -1927,10 +1977,6 @@ a:hover {
 }
 
 @media (max-width: 380px) {
-  .contenedor {
-    width: 100%;
-    background-image: url(assets/BANNERS/CEL/PAY-U-Y-MERCADO-PAGO/PAGOS-CEL2.png);
-  }
   footer {
     height: auto;
   }

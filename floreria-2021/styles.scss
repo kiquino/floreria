@@ -42,6 +42,7 @@ button {
   padding: 0.5em 1em;
   z-index: 16;
 }
+
 .sticky {
   position: fixed;
   top: 0;
@@ -75,28 +76,32 @@ header {
     height: 27em;
   }
 }
+
 .carousel-img {
   display: block;
   width: 100%;
   height: 27em;
 }
+
 .ci1 {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(assets/BANNERS/PC/HEADER/1.png);
 }
+
 .ci2 {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(assets/BANNERS/PC/HEADER/2.png);
+  background-image: url(assets/BANNERS/PC/HEADER/B2.jpg);
 }
+
 .ci3 {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(assets/BANNERS/PC/HEADER/3.png);
+  background-image: url(assets/BANNERS/PC/HEADER/B3.jpg);
 }
 
 .carousel {
@@ -202,7 +207,7 @@ header {
       }
 
       .categoria {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         border-color: linear-gradient(to right, $verde1 100%, $verde1 0%);
         padding: 2em;
@@ -287,246 +292,287 @@ header {
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod7 {
             background-image: url(assets/prod/cesta-yerberas-globos.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod8 {
             background-image: url(assets/prod/canasta-peluche-globo.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod9 {
             background-image: url(assets/prod/lisantus-y-globos.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod10 {
             background-image: url(assets/prod/rocvio-campestre.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod11 {
             background-image: url(assets/prod/ramo4esp-primavera.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod12 {
             background-image: url(assets/prod/rosas-box-25.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod13 {
             background-image: url(assets/prod/box-16-rosas.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod14 {
             background-image: url(assets/prod/rosas-c-ojos-de-perdiz.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod15 {
             background-image: url(assets/prod/susper-cesta-peluche.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod16 {
             background-image: url(assets/prod/cesta-nueva.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod17 {
             background-image: url(assets/prod/ROSAS-Y-CHAMPAGNE.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod18 {
             background-image: url(assets/prod/vinoybombon.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod19 {
             background-image: url(assets/prod/bandeja-picada.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod20 {
             background-image: url(assets/prod/DESAYUNO-floresjpg.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod21 {
             background-image: url(assets/prod/producto-nuevo3.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod22 {
             background-image: url(assets/prod/bombones.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod23 {
             background-image: url(assets/prod/matero.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod24 {
             background-image: url(assets/prod/canasta-vip-el.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod25 {
             background-image: url(assets/prod/florero-gerbera.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod26 {
             background-image: url(assets/prod/florero-alstromerias.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod27 {
             background-image: url(assets/prod/florero-claveles.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod28 {
             background-image: url(assets/prod/florero-rosas.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod29 {
             background-image: url(assets/prod/florero-amarillo.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod30 {
             background-image: url(assets/prod/SUPER-CESTA-DE-GERBERAS-Y-FLORES--SILVESTRES.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod31 {
             background-image: url(assets/prod/REGALO-NUEVO.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod32 {
             background-image: url(assets/prod/ARREGLO-LILIUMS-OJO-PERDIZ.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod33 {
             background-image: url(assets/prod/Arreglo-Imperial.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod34 {
             background-image: url(assets/prod/cesta-peluche-torta.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod35 {
             background-image: url(assets/prod/cesta-mis-15.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod36 {
             background-image: url(assets/prod/condolencias/corona-estandar.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod37 {
             background-image: url(assets/prod/condolencias/corona-nueva.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod38 {
             background-image: url(assets/prod/condolencias/corona-nueva-1.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod39 {
             background-image: url(assets/prod/condolencias/corona-mediana.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod40 {
             background-image: url(assets/prod/condolencias/corona-especial.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod41 {
             background-image: url(assets/prod/condolencias/corona-grande.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod42 {
             background-image: url(assets/prod/condolencias/aro-espuma-floral.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod43 {
             background-image: url(assets/prod/condolencias/combo-funebre.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod44 {
             background-image: url(assets/prod/condolencias/cruz.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod45 {
             background-image: url(assets/prod/condolencias/centro-funerario.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod46 {
             background-image: url(assets/prod/condolencias/corazon-g.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
           }
+
           .prod47 {
             background-image: url(assets/prod/condolencias/corazon.jpg);
             background-position: center;
@@ -547,6 +593,7 @@ header {
             p {
               width: 50%;
               margin-bottom: 0.5rem;
+
               b {
                 color: $verde2;
               }
@@ -561,6 +608,7 @@ header {
     }
   }
 }
+
 .btn:focus {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   text-decoration: underline;
@@ -586,19 +634,22 @@ header {
 ::-webkit-scrollbar {
   width: 9px;
   height: 9px;
- }
- ::-webkit-scrollbar-thumb {
-  background: linear-gradient(13deg, #b8b8b8 14%,#dedede 45%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(13deg, #b8b8b8 14%, #dedede 45%);
   border-radius: 10px;
- }
- ::-webkit-scrollbar-thumb:hover{
-  background: linear-gradient(13deg, #dedede 14%,#adadad 64%);
- }
- ::-webkit-scrollbar-track{
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(13deg, #dedede 14%, #adadad 64%);
+}
+
+::-webkit-scrollbar-track {
   background: #ffffff;
   border-radius: 10px;
   box-shadow: inset 7px 10px 12px #f0f0f0;
- }
+}
 
 main {
   display: flex;
@@ -684,7 +735,7 @@ main {
         border-radius: 20px;
         max-height: 45em;
         overflow-y: scroll;
-        
+
         h3 {
           margin-bottom: 0.5em;
         }
@@ -766,16 +817,16 @@ main {
         display: flex;
         flex-direction: column;
         text-align: left;
-        
-          .logo-whatsapp {
-            height: 1.3em;
-            width: 1.3em;
-            margin-left: 0em;
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-image: url(assets/iconfinder_whatsapp-logo_1269930-green.svg);
-          
+
+        .logo-whatsapp {
+          height: 1.3em;
+          width: 1.3em;
+          margin-left: 0em;
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-image: url(assets/iconfinder_whatsapp-logo_1269930-green.svg);
+
         }
 
         &:nth-child(1) {
@@ -852,11 +903,13 @@ main {
           align-items: center;
           margin: 0.8em 0;
           justify-content: space-between;
+
           &:nth-child(5) {
             input {
               width: 100%;
             }
           }
+
           &:nth-child(2) {
             input {
               font-weight: 600;
@@ -874,6 +927,7 @@ main {
             width: 80%;
             border-bottom: 1px solid $verde3;
           }
+
           #tel {
             font-size: 0.8em;
           }
@@ -904,6 +958,7 @@ footer {
   justify-content: space-between;
   padding: 0 0;
   background-color: $verde1;
+
   .footer-icon {
     height: 11em;
     width: 7em;
@@ -919,6 +974,7 @@ footer {
     display: flex;
     flex-direction: column;
     height: auto;
+
     a {
       .footer-icon {
         height: 6em;
@@ -931,6 +987,7 @@ footer {
         justify-content: flex-start;
       }
     }
+
     p {
       color: white;
       width: 7em;
@@ -938,7 +995,13 @@ footer {
   }
 
   .fiscal {
-    background-image: url(assets/logo_blanco_ImgID3.png);
+    a {
+      img {
+        width: 6em;
+        height: auto;
+      }
+    }
+
   }
 
   .designer {
@@ -961,6 +1024,7 @@ footer {
       flex-wrap: wrap;
       margin: auto 0;
       word-break: inherit;
+
       a {
         color: white;
         font-weight: normal;
@@ -1016,7 +1080,7 @@ footer {
 
     .list-item {
       text-align: left;
-      width: 80%;
+      width: 100%;
       margin: 0 auto;
 
       ul {
@@ -1067,6 +1131,7 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
       }
+
       .imagen-2 {
         margin: 0 auto;
         background-image: url(assets/BANNERS/PC/SERVICIOS/S2.png);
@@ -1076,6 +1141,7 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
       }
+
       .imagen-3 {
         margin: 0 auto;
         background-image: url(assets/BANNERS/PC/SERVICIOS/S3.png);
@@ -1405,10 +1471,48 @@ a:hover {
   color: #fff;
 }
 
+@media(max-width:1250px) {
+  header {
+    .banner {
+      display: flex;
+      width: 100%;
+      height: 20em;
+    }
+  }
+
+  .carousel-img {
+    display: block;
+    width: 100%;
+    height: 20em;
+  }
+
+  .ci1 {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/BANNERS/PC/HEADER/1.png);
+  }
+
+  .ci2 {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/BANNERS/PC/HEADER/B2.jpg);
+  }
+
+  .ci3 {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/BANNERS/PC/HEADER/B3.jpg);
+  }
+}
+
 @media (max-width: 850px) {
   .contenedor {
     width: 90%;
   }
+
   header {
     .banner {
       display: flex;
@@ -1416,29 +1520,34 @@ a:hover {
       height: 15em;
     }
   }
+
   .carousel-img {
     display: block;
     width: 100%;
     height: 15em;
   }
+
   .ci1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(assets/BANNERS/PC/HEADER/1.png);
   }
+
   .ci2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(assets/BANNERS/PC/HEADER/2.png);
+    background-image: url(assets/BANNERS/PC/HEADER/B2.jpg);
   }
+
   .ci3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(assets/BANNERS/PC/HEADER/3.png);
+    background-image: url(assets/BANNERS/PC/HEADER/B3.jpg);
   }
+
   .features {
     width: 100%;
 
@@ -1476,10 +1585,12 @@ a:hover {
           width: 100%;
           height: 15em;
         }
+
         .imagen-2 {
           width: 100%;
           height: 15em;
         }
+
         .imagen-3 {
           width: 100%;
           height: 15em;
@@ -1585,20 +1696,36 @@ a:hover {
     }
   }
 }
-@media(max-width:600px){
-  .nosotros{
+
+@media(max-width:600px) {
+
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 8em;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(assets/BANNERS/CEL/PAY-U-Y-MERCADO-PAGO/pagos.jpg);
+  }
+
+  .nosotros {
     .header-nosotros {
-    
+
       height: 6em;
-     
+
     }
   }
- 
-  .navbar{
+
+  .navbar {
     padding: 0.5em 0.5em;
   }
+
   header {
     flex-flow: column-reverse nowrap;
+
     .banner {
       display: flex;
       width: 100%;
@@ -1611,18 +1738,21 @@ a:hover {
     width: 100%;
     height: 100vh;
   }
+
   .ci1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(assets/BANNERS/CEL/HEADER/1.png);
   }
+
   .ci2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(assets/BANNERS/CEL/HEADER/2.png);
   }
+
   .ci3 {
     background-position: center;
     background-repeat: no-repeat;
@@ -1633,15 +1763,13 @@ a:hover {
 
 @media (max-width: 380px) {
 
-  .contenedor {
-    width: 100%;
-    background-image: url(assets/BANNERS/CEL/PAY-U-Y-MERCADO-PAGO/PAGOS-CEL2.png);
-  }
+
   footer {
     .contenedor-icondesigner {
       display: flex;
       flex-direction: column;
       height: auto;
+
       a {
         .footer-icon {
           height: 5em;
@@ -1654,12 +1782,15 @@ a:hover {
           justify-content: flex-start;
         }
       }
+
       p {
         color: white;
         width: 6em;
       }
     }
+
     height: auto;
+
     .contenedor-contacto {
       .contacto-tel {
         text-align: center;
@@ -1668,12 +1799,14 @@ a:hover {
         justify-content: center;
         flex-wrap: wrap;
         margin: auto 0;
+
         p {
           word-break: keep-all;
         }
       }
     }
   }
+
   .features {
     width: 100%;
     flex-direction: column;
@@ -1787,8 +1920,10 @@ a:hover {
       }
     }
   }
+
   header {
     flex-flow: column-reverse nowrap;
+
     .banner {
       display: flex;
       width: 100%;
@@ -1801,23 +1936,26 @@ a:hover {
     width: 100%;
     height: 100vh;
   }
+
   .ci1 {
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(assets/BANNERS/CEL/HEADER/1.png);
   }
+
   .ci2 {
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(assets/BANNERS/CEL/HEADER/2.png);
   }
+
   .ci3 {
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(assets/BANNERS/CEL/HEADER/3.png);
   }
-  
+
 }
