@@ -1974,6 +1974,62 @@ a:hover {
     background-size: contain;
     background-image: url(assets/BANNERS/CEL/HEADER/3.png);
   }
+  footer {
+    height: auto;
+  }
+  footer .contenedor-icondesigner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  footer .contenedor-icondesigner a .footer-icon {
+    height: 5em;
+    width: 5em;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  footer .contenedor-icondesigner p {
+    color: white;
+    width: 6em;
+  }
+  footer .contenedor-contacto .contacto-tel {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: auto 0;
+  }
+  footer .contenedor-contacto .contacto-tel p {
+    word-break: keep-all;
+  }
+  footer .contenedor-contacto .registrado {
+    height: auto;
+  }
 }
 
 @media (max-width: 380px) {
@@ -2029,6 +2085,9 @@ a:hover {
   }
   footer .contenedor-contacto .contacto-tel p {
     word-break: keep-all;
+  }
+  footer .contenedor-contacto .registrado {
+    height: auto;
   }
   .features {
     width: 100%;

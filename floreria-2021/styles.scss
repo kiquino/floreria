@@ -1759,6 +1759,53 @@ a:hover {
     background-size: contain;
     background-image: url(assets/BANNERS/CEL/HEADER/3.png);
   }
+
+  footer {
+    .contenedor-icondesigner {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+
+      a {
+        .footer-icon {
+          height: 5em;
+          width: 5em;
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: contain;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+        }
+      }
+
+      p {
+        color: white;
+        width: 6em;
+      }
+    }
+
+    height: auto;
+
+    .contenedor-contacto {
+      .contacto-tel {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto 0;
+
+        p {
+          word-break: keep-all;
+        }
+      }
+
+      .registrado {
+        height: auto;
+      }
+    }
+  }
 }
 
 @media (max-width: 380px) {
@@ -1803,6 +1850,10 @@ a:hover {
         p {
           word-break: keep-all;
         }
+      }
+
+      .registrado {
+        height: auto;
       }
     }
   }
