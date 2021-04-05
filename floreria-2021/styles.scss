@@ -84,6 +84,7 @@ header {
 }
 
 .ci1 {
+
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -498,6 +499,12 @@ header {
 
           .prod36 {
             background-image: url(assets/prod/COMBO-ENAMORADOS-ROSAS-PELUCHE-Y--BOMBONES.jpg);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+          .prod36bis {
+            background-image: url(assets/prod/corona-estandar.jpg);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
@@ -1487,6 +1494,7 @@ a:hover {
   }
 
   .ci1 {
+   
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;

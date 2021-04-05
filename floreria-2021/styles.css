@@ -570,6 +570,13 @@ header .banner {
   background-repeat: no-repeat;
 }
 
+.contenedor-prod .productos section .categoria .articulo .prod36bis {
+  background-image: url(assets/prod/corona-estandar.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .contenedor-prod .productos section .categoria .articulo .prod37 {
   background-image: url(assets/prod/condolencias/corona-nueva.jpg);
   background-position: center;
